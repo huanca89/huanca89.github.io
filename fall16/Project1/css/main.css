@@ -51,20 +51,79 @@ textarea {
 
 #image1{
     background-image: url("../images/blue.jpg");
-    background-color: green;
+    background-color: white;
     background-repeat: no-repeat;
-    margin: 0 auto;
-    width: 100%;
-    height: 440px;
-   
+    margin-right: 225px;
+    width: 1440px;
+    height: 750px;
 }
+
+a:hover{
+    color: white;
+}
+
+a{
+    padding: 18px;
+    font: serif;
+    text-decoration: none;
+    color: #c8c8c8;
+}
+
+
+
+#logo{
+    float: left;
+    margin-left: 225px;
+    margin-top: 40px;
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 310px;
+    height: 26px;
+}
+   
 
 nav{
     float: right;
-    margin-left: 50px;
     color: red;
     font-size: 12.6px;
+    padding-top: 40px;
+    margin-right: 225px;
+    background-color: green;
 
+
+}
+
+
+#text1{
+    font-size: 9.5px;
+    height: 60px;
+    width: 309px;
+    background-color: red;
+    float: right;
+    margin-top: 70px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+
+}
+
+button{
+    color: white;
+    background-color: #3a555a;
+    width:80px;
+    text-transform: uppercase;
+    height:25px;
+    margin-top: 20px;
+    border-style: none;
+    float: right;
+}
+
+#bottomhalf{
+    height: 1440px;
+    width: 1440px;
+    background-color: #57767a;
 }
 
 
