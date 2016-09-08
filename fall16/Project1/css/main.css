@@ -90,8 +90,8 @@ nav{
     padding-top: 40px;
     margin-right: 225px;
     background-color: green;
-
-
+    display: block; 0
+    clear: both;
 }
 
 
@@ -102,12 +102,29 @@ nav{
     background-color: red;
     float: right;
     margin-top: 70px;
-    
     background-repeat: no-repeat;
     background-size: 100%;
- 
-
+    display: block; 0
+    clear: both;
+    
 }
+
+
+#text2{
+    font-size: 9.5px;
+    height: 200px;
+    width: 280px;
+    background-color: red;
+    float: left;
+    margin-top: 280px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block; 0
+    clear: both;
+    margin-left: 225px;
+    
+}
+
 
 button{
     color: white;
@@ -126,8 +143,43 @@ button{
     background-color: #57767a;
 }
 
+#box1{
+    height: 231px;
+    width: 411px;
+    background-color: blue;
+    float: right;
+    display: block;
+    margin-right: 8px;
+    margin-top: 45px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 
+}
 
+#box2{
+    height: 231px;
+    width: 411px;
+    background-color: green;
+    float: right;
+    display: block;
+    margin-right: 8px;
+    margin-top: 45px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#box3{
+    height: 231px;
+    width: 411px;
+    background-color: yellow;
+    float: right;
+    display: block;
+    margin-right: 8px;
+    margin-top: 45px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 
 
