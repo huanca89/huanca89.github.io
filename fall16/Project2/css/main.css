@@ -63,22 +63,38 @@ textarea {
     background-repeat: no-repeat;
 }
 
-h3{
-    display: inline-block;
-    position: relative;
-    opacity: 1.5;
+
+
+.BOXX{
+    color: #6f6c27;
+    opacity: 1;
+    clear: left;
+
+
 }
 
+
 #box1{
-    height: 70px;
+    height: 80px;
     width: 300px;
-    background-color: green;
+    background-color: white;
     float: left;
-    margin-top: 100px;
     text-align: center;
-    color: white;
     font-family: zapfino;
-    opacity: .5;
+    opacity: .75;
+    padding-top: 10px;
+    margin-top: 140px;
+}
+
+#box2, #box3{
+    height: 80px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    font-family: zapfino;
+    opacity: .75;
+    padding-top: 10px;
 }
 
 
@@ -91,31 +107,12 @@ h3{
 
 
 
-#box2{
-    height: 70px;
-    width: 300px;
-    background-color: blue;
-    float: left;
-    text-align: center;
-}
-
-
-
 #box2:hover {
     transform: translate(500px, 500px); 
     transition-duration: 20s;
     transition-delay: 0s;
 }
 
-
-
-#box3{
-    height: 70px;
-    width: 300px;
-    background-color: yellow;
-    float: left;
-    text-align: center;
-}
 
 
 
