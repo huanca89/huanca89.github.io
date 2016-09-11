@@ -56,49 +56,72 @@ textarea {
    ========================================================================== */
 
 
+#wrapper{
+    height: 700px;
+    font-weight: 1440px;
+    background-image: url("../image/leaves.jpg");
+    background-repeat: no-repeat;
+}
+
+h3{
+    display: inline-block;
+    position: relative;
+    opacity: 1.5;
+}
+
 #box1{
-    height: 100px;
+    height: 70px;
     width: 300px;
     background-color: green;
     float: left;
+    margin-top: 100px;
     text-align: center;
-
-
-
+    color: white;
+    font-family: zapfino;
+    opacity: .5;
 }
+
+
+
 #box1:hover {
     transform: translate(1100px,0); 
-    transition-duration: 9s;
+    transition-duration: 20s;
     transition-delay: 0s;
 }
+
+
 
 #box2{
-    height: 100px;
+    height: 70px;
     width: 300px;
-    background-color: green;
+    background-color: blue;
     float: left;
     text-align: center;
-
-
 }
+
+
+
 #box2:hover {
     transform: translate(500px, 500px); 
-    transition-duration: 9s;
+    transition-duration: 20s;
     transition-delay: 0s;
 }
 
+
+
 #box3{
-    height: 100px;
+    height: 70px;
     width: 300px;
-    background-color: green;
+    background-color: yellow;
     float: left;
     text-align: center;
-
-
 }
+
+
+
 #box3:hover {
     transform: translate(1100px,0); 
-    transition-duration: 9s;
+    transition-duration: 20s;
     transition-delay: 0s;
 }
 
