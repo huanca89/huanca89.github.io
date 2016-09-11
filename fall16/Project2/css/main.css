@@ -56,20 +56,51 @@ textarea {
    ========================================================================== */
 
 
-
 #box1{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 300px;
     background-color: green;
-    transform: scale(3[,3])
+    float: left;
+    text-align: center;
+
 
 
 }
+#box1:hover {
+    transform: translate(1100px,0); 
+    transition-duration: 9s;
+    transition-delay: 0s;
+}
+
+#box2{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    float: left;
+    text-align: center;
 
 
+}
+#box2:hover {
+    transform: translate(500px, 500px); 
+    transition-duration: 9s;
+    transition-delay: 0s;
+}
+
+#box3{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    float: left;
+    text-align: center;
 
 
-
+}
+#box3:hover {
+    transform: translate(1100px,0); 
+    transition-duration: 9s;
+    transition-delay: 0s;
+}
 
 
 
