@@ -93,14 +93,13 @@ textarea {
     float: left;
     text-align: center;
     font-family: zapfino;
-    opacity: .75;
     padding-top: 10px;
 }
 
 
 
 #box1:hover {
-    transform: translate(1100px,0); 
+    transform: translate(1500px,0); 
     transition-duration: 20s;
     transition-delay: 0s;
 }
