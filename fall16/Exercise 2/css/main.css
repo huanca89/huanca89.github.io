@@ -55,90 +55,135 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 #wrapper{
-    height: 700px;
-    font-weight: 1440px;
-    background-image: url("../image/leaves.jpg");
-    background-repeat: no-repeat;
+    width: 990px;
+    height: 1000px;
+    
+    margin: 0 auto;
 }
 
-
-
-.BOXX{
-    color: #6f6c27;
-    opacity: 1;
-    clear: left;
-
-
-}
-
-
-#box1{
-    height: 80px;
-    width: 300px;
-    background-color: white;
+#square1,#square2,#square3,#square4,#square5{
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    margin: 14.5px;
     float: left;
-    text-align: center;
-    font-family: zapfino;
-    opacity: .75;
-    padding-top: 10px;
-    margin-top: 140px;
+    animation-name: firstrow, rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 20, 20;
+    animation-direction: alternate, normal;
+    animation-fill-mode: backwards;  
+    border-radius: 50px;
+}
+@keyframes firstrow{
+    0% {transform: translate(-250px, 0);}
+        50% {border-radius: 0;}
+        100% {transform: translate(250px, 0);}
+
 }
 
-#box2, #box3{
-    height: 80px;
-    width: 300px;
-    background-color: white;
+
+#square6,#square7,#square8,#square9,#square10{
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    margin: 14.5px;
     float: left;
-    text-align: center;
-    font-family: zapfino;
-    padding-top: 10px;
+    animation-name: firstroww, rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 20, 20;
+    animation-direction: alternate, normal;
+    animation-fill-mode: backwards;  
+    border-radius: 50px;
+
+}
+
+@keyframes firstroww{
+    0% {transform: translate(0, -250px);}
+        50% {border-radius: 0;}
+        100% {transform: translate(0, 250px);}
+
 }
 
 
 
-#box1:hover {
-    transform: translate(1500px,0); 
-    transition-duration: 20s;
-    transition-delay: 0s;
+#bigsquare1,#bigsquare2,#bigsquare3{
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    margin: 12.3px;
+    float: left;
+    animation-name: secondrow, rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 20, 20;
+    animation-direction: alternate, normal;
+    animation-fill-mode: backwards;  
+    border-radius: 50px;
+
+}
+
+@keyframes secondrow{
+    0% {transform: translate(0, -500px);}
+        50% {border-radius: 0;}
+        100% {transform: translate(500px, 250px);}
+
 }
 
 
 
-#box2:hover {
-    transform: translate(500px, 500px); 
-    transition-duration: 20s;
-    transition-delay: 0s;
+#bigsquare4,#bigsquare5,#bigsquare6{
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    margin: 12.3px;
+    float: left;
+    animation-name: secondroww, rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 20, 20;
+    animation-direction: alternate, normal;
+    animation-fill-mode: backwards;  
+    border-radius: 50px;
+
+}
+
+@keyframes secondroww{
+    0% {transform: translate(0, 500px);}
+        50% {border-radius: 0;}
+        100% {transform: translate(-500px, -250px);}
+
+}
+
+#hugesquare1,#hugesquare2,#hugesquare3{
+    width: 280px;
+    height: 280px;
+    background-color: orange;
+    margin: 24px;
+    float: left;
+
+}
+
+#rectangle{
+    width: 930px;
+    height: 375px;
+    background-color: purple;
+    margin-left: 25px;
+    
+    float: left;
+
 }
 
 
 
 
-#box3:hover {
-    transform: translate(1100px,0); 
-    transition-duration: 20s;
-    transition-delay: 0s;
-}
 
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    60% {
-        opacity: .75;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
-#fadeIn {
-    animation-name: fadeIn;
-    animation-duration: 2s;
-    animation-delay: 2s;
-}
+
+
 
 /* ==========================================================================
    Helper classes

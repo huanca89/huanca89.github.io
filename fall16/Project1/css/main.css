@@ -97,6 +97,7 @@ nav{
     padding-top: 40px;
     margin-right: 225px;
     background-color: green;
+    clear: right;
     
     
 }
@@ -108,7 +109,7 @@ nav{
     width: 309px;
     background-color: red;
     float: right;
-    margin-top: 70px;
+    
     background-repeat: no-repeat;
     background-size: 100%;
     display: block; 0
@@ -128,6 +129,7 @@ nav{
     background-size: 100%;
     display: block; 0
     margin-left: 225px;
+    clear: both;
     
 }
 
