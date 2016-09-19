@@ -58,8 +58,21 @@ textarea {
 #wrapper{
     width: 990px;
     height: 1000px;
-    
     margin: 0 auto;
+    animation-name: backgroundone, rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 20, 20;
+    animation-direction: alternate, normal;
+    animation-fill-mode: backwards;  
+    border-radius: 50px;
+}
+
+@keyframes backgroundone{
+    0% {transform: translate(-250px, 0);}
+        50% {border-radius: 0;}
+        100% {transform: translate(250px, 0);}
+
 }
 
 #square1,#square2,#square3,#square4,#square5{
@@ -68,7 +81,7 @@ textarea {
     background-color: green;
     margin: 14.5px;
     float: left;
-    animation-name: firstrow, rainbow;
+    animation-name: firstrow;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-iteration-count: 20, 20;
@@ -90,7 +103,7 @@ textarea {
     background-color: yellow;
     margin: 14.5px;
     float: left;
-    animation-name: firstroww, rainbow;
+    animation-name: firstroww;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-iteration-count: 20, 20;
@@ -115,7 +128,7 @@ textarea {
     background-color: red;
     margin: 12.3px;
     float: left;
-    animation-name: secondrow, rainbow;
+    animation-name: secondrow;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-iteration-count: 20, 20;
@@ -137,10 +150,10 @@ textarea {
 #bigsquare4,#bigsquare5,#bigsquare6{
     width: 140px;
     height: 140px;
-    background-color: red;
+    background-color: blue;
     margin: 12.3px;
     float: left;
-    animation-name: secondroww, rainbow;
+    animation-name: secondroww;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-iteration-count: 20, 20;
@@ -163,6 +176,20 @@ textarea {
     background-color: orange;
     margin: 24px;
     float: left;
+    animation-name: thirdrow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 20, 20;
+    animation-direction: alternate, normal;
+    animation-fill-mode: backwards;  
+    border-radius: 50px;
+
+}
+
+@keyframes thirdrow{
+    0% {transform: translate(1400px, 0px);}
+        50% {border-radius: 0;}
+        100% {transform: translate(-500px, -250px);}
 
 }
 
@@ -176,7 +203,18 @@ textarea {
 
 }
 
-
+@keyframes rainbow{0%
+    {background: #000000;}
+    11% {background: #ff0000;}
+    22% {background: #ff9900;}
+    33% {background: #ffff00;}
+    44% {background: #00ff33;}
+    55% {background: #00ffff;}
+    66% {background: #0000ff;}
+    77% {background: #ff00ff;}
+    88% {background: #662382;}
+    100% {background: #ffffff;}
+}
 
 
 
