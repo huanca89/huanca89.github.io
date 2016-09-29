@@ -66,13 +66,113 @@
                     background:#990;
                 }
             }
+
+
+            .logo{
+                border-radius: 0%;
+                height: 127px;
+                width: 127px;
+                position: absolute;
+                background-size: 100%;
+                background-image: url("../images/logo.");
+                animation-name: logok, color;
+                animation-duration: 4s, 1s;
+                animation-iteration-count:infinite;
+
+            }
+
+
+            @keyframes move {
+                0% {
+                    top: calc(0% - 25px);
+                    left: calc(0% - 25px);
+                }
+                40% {
+                    top: calc(100% - 25px);
+                    left: calc(100% - 25px);
+                }
+                50% {
+                    top: calc(0% - 25px);
+                    left: calc(100% - 25px);
+                }
+                90% {
+                    top: calc(100% - 25px);
+                    left: calc(0% - 25px);
+                }
+                100% {
+                    top: calc(0% - 25px);
+                    left: calc(0% - 25px);
+                }
+            }
+            @keyframes color {
+                0% {
+                    background:#0CF;
+                }
+                100% {
+                    background:#990;
+                }
+            }
+
+
+            
+
+
         </style>
     </head>
     <body>
         <a href="#" id="medium-rectangle">
             <!--markup for banner goes below-->
-            <div class="ball"></div>
+            <div class="ball">
+
+            <div class="logo"></div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
             <!--markup for banner goes above-->
         </div>
+
+
+    
+
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
