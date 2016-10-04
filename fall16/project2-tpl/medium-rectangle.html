@@ -17,6 +17,7 @@
                 display: block;
                 height: 250px;
                 margin: 50px auto;
+                background-image: url("images/chalk.jpg");
                 overflow: hidden;
                 padding: 0;
                 position: relative;
@@ -73,45 +74,465 @@
                 height: 127px;
                 width: 127px;
                 position: absolute;
-                background-size: 100%;
-                background-image: url("../images/logo.");
-                animation-name: logok, color;
-                animation-duration: 4s, 1s;
-                animation-iteration-count:infinite;
-
+                background-size: cover;
+                background-image: url("images/logo.png");
+                animation-name: starbuckslogo;
+                animation-duration: 3.5s;
+                position: absolute;
+                animation-fill-mode: both;
+                left: 50%;
+                margin-left: -63.5px;
+                margin-top: 20px;
             }
 
 
-            @keyframes move {
+            @keyframes starbuckslogo{
                 0% {
-                    top: calc(0% - 25px);
-                    left: calc(0% - 25px);
+                    transform: translateY(-200px);
                 }
-                40% {
-                    top: calc(100% - 25px);
-                    left: calc(100% - 25px);
+                25% {
+                    transform: translateY(0px);
                 }
                 50% {
-                    top: calc(0% - 25px);
-                    left: calc(100% - 25px);
-                }
-                90% {
-                    top: calc(100% - 25px);
-                    left: calc(0% - 25px);
+                    transform: translateX(0px);
                 }
                 100% {
-                    top: calc(0% - 25px);
-                    left: calc(0% - 25px);
+                    transform: translateX(300px);
                 }
             }
-            @keyframes color {
+
+
+            .text1{
+                border-radius: 0%;
+                height: 30px;
+                width: 300px;
+                color: white;
+                float: center;
+                bottom: 30px;
+                background-image: url("images/text1.png");
+                text-align: center;
+                position: absolute;
+                animation-name: firsttext;
+                animation-duration: 3.5s;
+                position: absolute;
+                animation-fill-mode: both;
+                
+            }
+
+
+            @keyframes firsttext{
                 0% {
-                    background:#0CF;
+                    transform: translateX(200px);
+                }
+                25% {
+                    transform: translateX(0px);
+                }
+                50% {
+                    transform: translateY(0px);
                 }
                 100% {
-                    background:#990;
+                    transform: translateY(300px);
                 }
             }
+
+            .cup1{
+                border-radius: 0%;
+                height: 162px;
+                width: 71px;
+                position: absolute;
+                margin-top: 75px;
+                margin-left: 10px;
+                background-size: cover;
+                background-image: url("images/cup1.png");
+                animation-name: cupone;
+                animation-delay: 3s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+
+                
+            }
+
+            @keyframes cupone{
+                0% {
+                    transform: translateX(-300px);
+                }
+                25% {
+                    transform: translateX(0px);
+                }
+                50% {
+                    transform: translateY(0px);
+                }
+                100% {
+                    transform: translateY(300px);
+                }
+            }
+
+            .cup2{
+                border-radius: 0%;
+                height: 130px;
+                width: 86px;
+                position: absolute;
+                left: 50%;
+                margin-left: -50px;
+                margin-top: 65px;
+                background-size: cover;
+                background-image: url("images/cup2.png");
+                animation-name: cuptwo;
+                animation-delay: 3s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+                
+            }
+
+            @keyframes cuptwo{
+                0% {
+                    transform: translateY(200px);
+                }
+                25% {
+                    transform: translateY(0px);
+                }
+                50% {
+                    transform: translateY(0px);
+                }
+                100% {
+                    transform: translateY(300px);
+                }
+            }
+
+            .cup3{
+                border-radius: 0%;
+                height: 162px;
+                width: 71px;
+                position: absolute;
+                margin-top: 75px;
+                margin-left: 10px;
+                background-size: cover;
+                background-image: url("images/cup3.png");
+                animation-name: cupthree;
+                animation-delay: 3s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+                right: 10%;
+                
+            }
+
+            @keyframes cupthree{
+                0% {
+                    transform: translateX(200px);
+                }
+                25% {
+                    transform: translateX(0px);
+                }
+                50% {
+                    transform: translateX(0px);
+                }
+                100% {
+                    transform: translateY(300px);
+                }
+            }
+
+            .text2{
+                border-radius: 0%;
+                height: 30px;
+                width: 300px;
+                color: white;
+                top: 30px;
+                background-image: url("images/text2.png");
+                text-align: center;
+                position: absolute;
+                animation-name: secondtext;
+                animation-delay: 3s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+                
+            }
+
+
+            @keyframes secondtext{
+                0% {
+                    transform: translateX(300px);
+                }
+                25% {
+                    transform: translateX(0px);
+                }
+                50% {
+                    transform: translateY(0px);
+                }
+                100% {
+                    transform: translateY(300px);
+                }
+            }
+
+
+
+            .text3{
+                border-radius: 0%;
+                height: 30px;
+                width: 300px;
+                color: white;
+                bottom: 20px;
+                background-image: url("images/text3.png");
+                text-align: center;
+                position: absolute;
+                animation-name: thirdtext;
+                animation-delay: 5.5s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+                
+            }
+
+
+            @keyframes thirdtext{
+                0% {
+                    transform: translateX(300px);
+                }
+                25% {
+                    transform: translateX(0px);
+                }
+                50% {
+                    transform: translateY(0px);
+                }
+                100% {
+                    transform: translateY(300px);
+                }
+            }
+
+            .cup4{
+                border-radius: 0%;
+                height: 162px;
+                width: 71px;
+                position: absolute;
+                margin-top: 30px;
+                margin-left: 10px;
+                background-size: cover;
+                background-image: url("images/cup4.png");
+                animation-name: cupfour;
+                animation-delay: 5.5s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+                left: 10%;
+                
+            }
+
+            @keyframes cupfour{
+                0% {
+                    transform: translateY(300px);
+                }
+                25% {
+                    transform: translateY(0px);
+                }
+                50% {
+                    transform: translateX(0px);
+                }
+                100% {
+                    transform: translateX(-300px);
+                }
+            }
+
+            .cup5{
+                border-radius: 0%;
+                height: 162px;
+                width: 71px;
+                position: absolute;
+                margin-top: 30px;
+                margin-left: 10px;
+                background-size: cover;
+                background-image: url("images/cup5.png");
+                animation-name: cupfive;
+                animation-delay: 5.5s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+                right: 10%;
+                
+            }
+
+            @keyframes cupfive{
+                0% {
+                    transform: translateX(200px);
+                }
+                25% {
+                    transform: translateX(0px);
+                }
+                50% {
+                    transform: translateY(0px);
+                }
+                100% {
+                    transform: translateY(-300px);
+                }
+            }
+
+            .text4{
+                border-radius: 0%;
+                height: 30px;
+                width: 300px;
+                color: white;
+                top: 30px;
+                background-image: url("images/text4.png");
+                text-align: center;
+                position: absolute;
+                animation-name: fourthtext;
+                animation-delay: 8s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+
+                
+            }
+
+
+            @keyframes fourthtext{
+                0% {
+                    transform: translateY(300px);
+                }
+                25% {
+                    transform: translateY(0px);
+                }
+                50% {
+                    transform: translateX(0px);
+                }
+                100% {
+                    transform: translateX(300px);
+                }
+            }
+
+            .cup6{
+                border-radius: 0%;
+                height: 113px;
+                width: 71px;
+                position: absolute;
+                margin-top: 80px;
+                margin-left: 10px;
+                background-size: cover;
+                background-image: url("images/cup6.png");
+                animation-name: cupsix;
+                animation-delay: 8s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+                left: 10%;
+                
+            }
+
+            @keyframes cupsix{
+                0% {
+                    transform: translateX(-300px);
+                }
+                25% {
+                    transform: translateX(0px);
+                }
+                50% {
+                    transform: translateY(0px);
+                }
+                100% {
+                    transform: translateY(300px);
+                }
+            }
+
+            .cup7{
+                border-radius: 0%;
+                height: 113px;
+                width: 71px;
+                position: absolute;
+                margin-top: 80px;
+                margin-left: 10px;
+                background-size: cover;
+                background-image: url("images/cup7.png");
+                animation-name: cupseven;
+                animation-delay: 8s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+                right: 10%;
+                
+            }
+
+            @keyframes cupseven{
+                0% {
+                    transform: translateX(200px);
+                }
+                25% {
+                    transform: translateX(0px);
+                }
+                50% {
+                    transform: translateY(0px);
+                }
+                100% {
+                    transform: translateY(300px);
+                }
+            }
+
+            .man{
+                border-radius: 0%;
+                height: 173px;
+                width: 122px;
+                position: absolute;
+                background-size: cover;
+                background-image: url("images/man.png");
+                animation-name: man;
+                animation-delay: 10.5s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+                left: 50%;
+                margin-left: -63.5px;
+                margin-top: 80px;
+                
+            }
+
+            @keyframes man{
+                0% {
+                    transform: translateX(300px);
+                }
+                25% {
+                    transform: translateX(0px);
+                }
+                50% {
+                    transform: translateY(0px);
+                }
+                100% {
+                    transform: translateY(300px);
+                }
+            }
+
+            .text5{
+                border-radius: 0%;
+                height: 30px;
+                width: 300px;
+                color: white;
+                top: 30px;
+                background-image: url("images/text5.png");
+                text-align: center;
+                position: absolute;
+                animation-name: fifthtext;
+                animation-delay: 10.5s;
+                animation-duration: 3.5s;
+                animation-fill-mode: both;
+
+                
+            }
+
+
+            @keyframes fifthtext{
+                0% {
+                    transform: translateY(300px);
+                }
+                25% {
+                    transform: translateY(0px);
+                }
+                50% {
+                    transform: translateX(0px);
+                }
+                100% {
+                    transform: translateX(300px);
+                }
+            }
+
+            
+
+
+
+            
+
+
+
+
+
 
 
             
@@ -122,14 +543,37 @@
     <body>
         <a href="#" id="medium-rectangle">
             <!--markup for banner goes below-->
-            <div class="ball">
 
             <div class="logo"></div>
 
+            <div class="text1"></div>
+
+            <div class="cup1"></div>
+
+            <div class="cup2"></div>
+
+            <div class="cup3"></div>
+
+            <div class="text2"></div>
 
 
-            </div>
+             <div class="text3"></div>
 
+            <div class="cup4"></div>
+
+            <div class="cup5"></div>
+
+            <div class="text4"></div>
+
+            <div class="cup6"></div>
+
+            <div class="cup7"></div>
+
+            <div class="man"></div>
+
+            <div class="text5"></div>
+
+            
 
 
 
