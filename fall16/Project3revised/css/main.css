@@ -948,11 +948,113 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+nav{
+  color: green;
+  width: 404px;
+  height: 19px;
+  float: right;
+}
 
 
+#header{
+  width: 100%;
+  float: center;
+}
+
+#mainpic{
+  width: 100%;
+  height: 380px;
+}
+  
+
+#image1{
+  width: 32%;
+  height: 375px;
+  background-image: url("../images/image1.jpg");
+  background-color: orange;
+  float: left;
+  clear: both;
+}
+
+#text1{
+  width: 65%;
+  height: 375px;
+  background-color: yellow;
+  float: right;
+  clear: both;
+}
+
+#footer{
+  text-align: center;
+
+}
+
+#socialmedia{
+  width: 100%;
+  height: 30px;
+  float: left;
+  
+
+}
 
 
+#form1{
+width:136px;
+float:left;
+border: none;
+}
 
+#formLeft label{
+color: white;
+font-family: Avenir;
+padding-bottom: 0;
+}
+
+#formLeft input{
+width:130px;
+height:19px;
+color: black;
+font-family: Avenir;
+border-radius: 15px;
+}
+
+#formLeft p{
+    margin-bottom: -50px;
+}
+
+
+#formRight p{
+    margin-bottom: -50px;
+
+}
+
+.agreement{
+    font-size: 8px;
+    line-height: 15px;
+    background-color: red;
+}
+
+button{
+
+margin: 0 auto;
+background-color: #98a241;
+color: white;
+font-family: Avenir;
+font-size: 11px;
+text-align: center;
+display: block;
+width:60px;
+height:20px;
+border:none;
+padding-top: 3px;
+
+
+}
+
+#formbot{
+border: none;
+
+}
 
 
 
@@ -1192,6 +1294,10 @@ textarea {
 .container:after,
 .row:after {
     clear: both;
+}
+.container .row {
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .display-block {
