@@ -948,8 +948,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+.backgroundimage{
+padding-bottom: 66.796875%;
+background-image: url("../images/chalkbackground.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+padding-top: 30px;
+}
+@media screen and (max-width: 990px) {
+.backgroundimage{
+padding-top: 10px;
+}
+
+
+
+
+
 nav{
-  color: green;
+  color: white;
   width: 404px;
   height: 19px;
   float: right;
@@ -984,8 +1002,9 @@ nav{
   clear: both;
 }
 
-#footer{
+.footer{
   text-align: center;
+  color: white;
 
 }
 
@@ -1000,38 +1019,33 @@ nav{
 
 #form1{
 width:136px;
-float:left;
 border: none;
+background-color: red;
 }
 
-#formLeft label{
+#form1 label{
 color: white;
 font-family: Avenir;
 padding-bottom: 0;
 }
 
-#formLeft input{
-width:130px;
-height:19px;
+#form1 input{
+width:242px;
+height:28px;
 color: black;
 font-family: Avenir;
 border-radius: 15px;
 }
 
-#formLeft p{
-    margin-bottom: -50px;
+#form1 p{
+    margin-bottom: 10px;
 }
 
-
-#formRight p{
-    margin-bottom: -50px;
-
-}
 
 .agreement{
     font-size: 8px;
     line-height: 15px;
-    background-color: red;
+    
 }
 
 button{
@@ -1040,7 +1054,7 @@ margin: 0 auto;
 background-color: #98a241;
 color: white;
 font-family: Avenir;
-font-size: 11px;
+font-size: 14px;
 text-align: center;
 display: block;
 width:60px;
