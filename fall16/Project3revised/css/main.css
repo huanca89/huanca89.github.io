@@ -954,26 +954,41 @@ padding-bottom: 66.796875%;
 background-image: url("../images/chalkbackground.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-
-padding-top: 30px;
 }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1280px) {
 .backgroundimage{
 padding-top: 10px;
 }
 
 
-
-
-
-nav{
+.row{
   color: white;
-  width: 404px;
-  height: 19px;
-  float: right;
+}
+
+.logo{
+  
 }
 
 
+.container{
+  margin: 20px;
+}
+
+nav{
+  color: white;
+  text-align: right;
+}
+
+#navigation{
+  text-align: right;
+}
+#navigation a:hover{
+  padding: 20px;
+}
+a:hover{
+  color: #dfe563;
+  padding: 20px;
+}
 #header{
   width: 100%;
   float: center;
@@ -1015,21 +1030,23 @@ nav{
   
 
 }
-
-
-#form1{
-width:136px;
-border: none;
-background-color: red;
+.formbackground {
+background-color: #6085a0;
 }
 
-#form1 label{
+.form1{
+
+border: none;
+background-color: #6085a0;
+}
+
+.form1 label{
 color: white;
 font-family: Avenir;
 padding-bottom: 0;
 }
 
-#form1 input{
+.form1 input{
 width:242px;
 height:28px;
 color: black;
@@ -1037,7 +1054,7 @@ font-family: Avenir;
 border-radius: 15px;
 }
 
-#form1 p{
+.form1 p{
     margin-bottom: 10px;
 }
 
@@ -1068,6 +1085,11 @@ padding-top: 3px;
 #formbot{
 border: none;
 
+}
+
+
+button:hover{
+  color: #85bac6;
 }
 
 
