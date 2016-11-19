@@ -992,13 +992,14 @@ padding-left: 0px;
   color: #60849f;
   font-family: Centurygothic;
   font-size: 200%;
+
 }
 
 .designcomp{
   color: #adc956;
   font-family: Chalkduster;
-  font-size: 43%;
-
+  font-size: 85%;
+  line-height: ;
 }
 
 
@@ -1018,11 +1019,13 @@ h2{
 }
 
 #navigation{
-  text-align: right;
-  color: red;
+  float: right;
+  color: white;
+  font-family: Chalkduster;
 }
 #navigation a:hover{
-  padding: 70px;
+  color: green;
+  
 }
 a:hover{
   color: #dfe563;
@@ -1047,14 +1050,11 @@ a:hover{
 
 .hometext{
   padding-top: 0px;
-
 }
 
 .headline{
   text-align: center;
-  padding-bottom: 15px;
-
-
+  
 }
 
 #text1{
