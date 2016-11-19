@@ -947,47 +947,77 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+#wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+}
 
 .backgroundimage{
 padding-bottom: 66.796875%;
 background-image: url("../images/chalkbackground.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+padding-left: 150px;
 }
 @media screen and (max-width: 1280px) {
 .backgroundimage{
 padding-top: 10px;
 }
+@media screen and ( max-width: 768px) {
+.backgroundimage{
+padding-left: 0px;
+}
+.imagehide{
+    visibility: none;
+    display: none;
+  }
+}
 
-
+}
 .row{
   color: white;
 }
 
 .logo{
+  padding-top: 20px;
   
 }
 
 
 .container{
-  margin: 20px;
+
+}
+.starbucksheading{
+
+  color: #60849f;
+  font-family: Centurygothic;
+  font-size: 200%;
+}
+
+.designcomp{
+  color: #adc956;
+  font-family: chalkduster;
+  font-size: 43%;
 }
 
 nav{
   color: white;
-  text-align: right;
+}
+
+h2{
+  text-align: center;
 }
 
 #navigation{
   text-align: right;
 }
 #navigation a:hover{
-  padding: 20px;
+  padding: 70px;
 }
 a:hover{
   color: #dfe563;
   padding: 20px;
+
 }
 #header{
   width: 100%;
@@ -998,15 +1028,23 @@ a:hover{
   width: 100%;
   height: 380px;
 }
-  
 
-#image1{
-  width: 32%;
-  height: 375px;
-  background-image: url("../images/image1.jpg");
-  background-color: orange;
-  float: left;
-  clear: both;
+
+.image1{
+  padding-left: 0px;
+  padding-top: 29px;
+}
+
+.hometext{
+  padding-top: 0px;
+
+}
+
+.headline{
+  text-align: center;
+  padding-bottom: 15px;
+
+
 }
 
 #text1{
@@ -1019,7 +1057,7 @@ a:hover{
 
 .footer{
   text-align: center;
-  color: white;
+  color: green;
 
 }
 

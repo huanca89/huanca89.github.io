@@ -13,8 +13,8 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-
-    <div class="backgroundimage">
+    <div id="wrapper">
+        <div class="backgroundimage">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-xs-left">
@@ -24,8 +24,14 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-xs-12 push-xs-0 col-md-12 push-sm-0 col-lg-12 text-center" style="background:">
+                <div class="col-xs-12 push-xs-0 col-md-12 push-sm-0 col-lg-12 text-center logo">
                     <img src="images/logo.png" alt="some text" class="img-responsive"/>
+                 </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12 push-xs-0 col-md-12 push-sm-0 col-lg-12 text-right">
                     <nav id="navigation">
                     <a href="home.html">Home<a/>
                     <a href="about.html">About<a/>
@@ -35,12 +41,18 @@
 
                 </div>
             </div>
+
+
+            <div class="row">
+                <div class="col-xs-12 push-xs-0 col-md-12 push-sm-0 col-lg-12 text-center headline">
+                    <h1><span class="starbucksheading"><strong>Starbucks</strong><br>
+                    <span class="designcomp"><strong>Design Competition</strong></span></h1>
+            </div>
         
 
 
                 <div class="row">
-                <div class="col-xs-12 push-xs-0 col-md-12 push-sm-0 col-lg-12 text-center" style="background:green">
-                    <div id="header">Starbucks<br>Design Competition</div>
+                <div class="col-xs-12 push-xs-0 col-md-12 push-sm-0 col-lg-12 text-center">
                     <img src="images/mainpic.jpg" alt="some text" class="img-responsive"/>
                    
                 </div>
@@ -48,10 +60,10 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6 col-lg-4 text-sm-right" style="background:lightblue">
-                    <img src="images/image1.jpg" alt="some text" class="img-responsive" /></div>
-                    <div class="col-xs-6 col-md-6 col-lg-8 text-right text-sm-right" style="background:lightblue">
-                        Design Competition Overview<br>
+                    <div class="col-xs-12 col-md-6 col-lg-4 text-sm-right imagehide">
+                    <img src="images/image1.jpg" alt="some text" class="img-responsive image1"></div>
+                    <div class="col-xs-12 col-md-12 col-lg-8 text-left text-sm-left hometext">
+                        <h2>Design Competition Overview</h2>
                             Taking a cue from customers who have been doodling designs on cups for the past years, Starbucks is launching a White Cup Contest.<br>
                             The contest encourages customers in the U.S. and Canada to decorate a Starbucks cup with customized art, take a photo of it, and submit the design through social media using #WhiteCupContest. The winning design will be printed on a limited edition Starbucks reusable plastic cup.<br>
                             Starbucks $1 reusable cup, designed to look like the company’s paper cups, debuted in January of 2013. The plastic cup is sturdier than paper, but thinner than a typical tumbler with a lifespan of about 30 uses. The cups have interior lines to denote a "tall" or "grande" size. Customers receive a dime discount for each refill in the cup, so it pays for itself after 10 uses. And, baristas will clean the reusable cups for customers with a boiling-water rinse before each refill.<br>
@@ -63,21 +75,21 @@
 
 
             <div class="row">
-                <div class="col-xs-12 push-xs-0 col-md-12 push-sm-0 col-lg-12 text-center" style="background:orange">
+                <div class="col-xs-12 push-xs-0 col-md-12 push-sm-0 col-lg-12 text-center">
                     <img src="images/socialmediastarbucks.png" alt="some text" class="img-responsive"/>
                     
-                    <div id="footer">©2016 Starbucks Corporation. All rights reserved.</div>
-                    
+                    <div class="footer">©2016 Starbucks Corporation. All rights reserved.
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
  </div>
  </div>
  </div>
  </div>
         
-
+</div><!--closes wrapper--!>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
