@@ -998,11 +998,20 @@ padding-left: 0px;
   color: #adc956;
   font-family: chalkduster;
   font-size: 43%;
+
 }
 
-nav{
-  color: white;
+
+@font-face {
+  font-family: 'Chalkduster';
+  src: url('Chalkduster.eot');
+  src: url('Chalkduster.eot?#iefix') format('embedded-opentype'),
+    url('Chalkduster.woff') format('woff'),
+    url('Chalkduster.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 h2{
   text-align: center;
@@ -1010,6 +1019,7 @@ h2{
 
 #navigation{
   text-align: right;
+  color: red;
 }
 #navigation a:hover{
   padding: 70px;
