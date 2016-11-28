@@ -1021,15 +1021,15 @@ h2{
 #navigation{
   float: right;
   color: white;
-  font-family: Chalkduster;
+  font-family: 'Chalkduster';
+  text-decoration: none;
 }
 #navigation a:hover{
   color: green;
-  
+  text-decoration: none;
 }
 a:hover{
-  color: #dfe563;
-  padding: 20px;
+  
 
 }
 #header{
@@ -1067,14 +1067,19 @@ a:hover{
 
 .footer{
   text-align: center;
-  color: green;
+  color: white;
 
 }
 
-#socialmedia{
-  width: 100%;
-  height: 30px;
-  float: left;
+.designcompoverview{
+  font-size: 110%;
+  text-align: center;
+  font-family: Chalkduster;
+  color: #adc956;
+}
+
+.socialmedia{
+  float: center;
   
 
 }
@@ -1473,7 +1478,7 @@ button:hover{
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a[href]:after {
