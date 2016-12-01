@@ -997,7 +997,7 @@ font-size: 1000px;
 
 .starbucksheading{
   color: #60849f;
-  font-family: Centurygothic;
+  font-family: 'Futura';
   font-size: 200%;
 }
 
@@ -1034,11 +1034,12 @@ font-size: 1000px;
 
 .prizebody{
   color: #6085a0;
-  font-family: centurygothic;
+  font-family: 'Futura';
 }
 
 .prizequote{
   color: #aeca56;
+  font-family: 'Chalkduster';
 }
 
 h1{
@@ -1047,6 +1048,7 @@ h1{
 
 h2{
   text-align: center;
+  color: #aeca56;
 }
 
 a{
@@ -1076,6 +1078,7 @@ a:hover{
 
 p{
   color: #6085a0;
+  font-family: 'Futura';
 }
 
 #mainpic{
@@ -1177,8 +1180,7 @@ display: block;
 width:60px;
 height:20px;
 border:none;
-margin: 10px;
-
+margin: 20px;
 
 }
 
@@ -1191,13 +1193,14 @@ border: none;
 button:hover{
   color: #85bac6;
 }
-
+@media screen and (max-width: 768px) {
 .photoupload{
-  margin: 30px;
+
 }
 
 .socialpic{
   padding-bottom: 15px;
+  margin-top: 20px;
 }
 .socialpic > img {
   margin: 0 auto;
