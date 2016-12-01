@@ -967,6 +967,19 @@ background-size: cover;
 .backgroundimage{
 padding-left: 0px;
 }
+}
+@media screen and (max-width: 375px) {
+#navigation{
+  margin-top: 20px;
+  font-size: 125%;}
+}
+@media screen and (max-width: 375px) {
+.designcompoverview{
+font-size: 1000px;
+}
+}
+
+
 .imagehide{
     visibility: none;
     display: none;
@@ -1099,6 +1112,10 @@ p{
   clear: both;
 }
 
+.topimage{
+  padding-bottom: 15px;
+}
+
 .designcompoverview{
   font-size: 100%;
   text-align: center;
@@ -1153,14 +1170,14 @@ button{
 margin: 0 auto;
 background-color: #98a241;
 color: white;
-font-family: Avenir;
+font-family: 'Futura';
 font-size: 14px;
 text-align: center;
 display: block;
 width:60px;
 height:20px;
 border:none;
-padding-top: 3px;
+margin: 10px;
 
 
 }
